@@ -11,6 +11,23 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/* Light Mode (default) */
+body {
+    background-color: white;
+    color: black;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+/* Additional styling for justification */
+p, ul, h2, h3 {
+    text-align: justify;
+}
+
 html {
   scroll-behavior: smooth;
 }
