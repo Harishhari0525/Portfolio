@@ -6,8 +6,9 @@
     <title>Harish Ummadisetty</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="theme.css">
 </head>
-<body>
+<body class="light-mode">
    <nav id="desktop-nav">
     <div class="logo">Harish</div>
     <div>
@@ -18,6 +19,7 @@
             <li><a href="#contact">Contact </a></li>
         </ul>
     </div>
+    <button id="theme-toggle" onclick="toggleTheme()">Switch to Dark Mode</button>
    </nav>
    <nav id="hamburger-nav">
     <div class="logo">Harish</div>
@@ -37,7 +39,7 @@
    </nav>
     <section id="profile">
         <div class="section__pic-container">
-            <img src="assets/pic.jpg"alt="Harish profile photo"/>
+            <img src="assets/pic.jpg" alt="Harish profile photo"/>
         </div>
         <div class="section__text">
             <p1 class="section__text__p1">Hey, I'm </p1>
@@ -189,11 +191,27 @@
     <h1 class="title">Contact</h1>
     <div class="contact-details-container">
       <div class="details-container">
-        <p>Email: harish@example.com</p>
-        <p>Phone: +91-1234567890</p>
+        <p>Email: harishhari0525@gmail.com</p>
+        <p>Phone: +91-8686307426</p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/harish-ummadisetty/" target="_blank">Harish Ummadisetty</a></p>
       </div>
     </div>
    </section>
+   <script>
+    function toggleTheme() {
+        const body = document.body;
+        body.classList.toggle('dark-mode');
+        const themeToggle = document.getElementById('theme-toggle');
+        if (body.classList.contains('dark-mode')) {
+            themeToggle.textContent = 'Switch to Light Mode';
+        } else {
+            themeToggle.textContent = 'Switch to Dark Mode';
+        }
+    }
+    function toggleMenu() {
+        const menuLinks = document.querySelector('.menu-links');
+        menuLinks.classList.toggle('show');
+    }
+   </script>
 </body>
 </html>
