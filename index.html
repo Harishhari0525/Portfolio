@@ -6,21 +6,19 @@
     <title>Harish Ummadisetty</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
-    <link rel="stylesheet" href="theme.css">
+
 </head>
-<body class="light-mode">
+<body>
    <nav id="desktop-nav">
     <div class="logo">Harish</div>
     <div>
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
-            <li> <a href="#experience"> Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#certification">Certification</a></li>
-            <li><a href="#contact">Contact </a></li>
+            <li> <a href="#experience">Experience</a></li>
+            <li><a  href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
-   <!-- <button id="theme-toggle" onclick="toggleTheme()">Switch to Dark Mode</button> -->
    </nav>
    <nav id="hamburger-nav">
     <div class="logo">Harish</div>
@@ -32,23 +30,25 @@
         </div>
         <div class="menu-links">
             <li><a href="#about" onclick="toggleMenu()">About</a></li>
-            <li> <a href="#experience" onclick="toggleMenu()">Experience</a></li>
-            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            <li> <a href="#experience" onclick="toggleMenu()"> Experience</a></li>
+            <li><a  href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact </a></li>
         </div>
     </div>
    </nav>
     <section id="profile">
         <div class="section__pic-container">
-            <img src="assets/pic.jpg" alt="Harish profile photo"/>
+            <img src="assets/pic.png"alt="Vamsi profile photo"/>
+
         </div>
         <div class="section__text">
-            <p1 class="section__text__p1">Hey, I'm </p1>
+           
+          <p1 class="section__text__p1">Hey, I'm </p1>
             <h2 class="title">Harish</h2>
             <p class="section__text__p2">Senior Associate Consultant | Infosys Ltd.</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('assets/Harish_Ummadisetty_Resume.pdf')" >Download CV</button>
-                <button class="btn btn-color-1" onclick="location.href='./#contact' " > Contact info </button>
+                <button class="btn btn-color-2" onclick="window.open('assets/Harish_Ummadisetty_Resume.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact' ">Contact info </button>
             </div>
             <div id="socials-container">
                 <img 
@@ -58,7 +58,7 @@
                 <img
                 src="assets/github.png" alt="github profile"
                 class="icon"
-                onclick="window.open('https://github.com/Harishhari0525/','_blank')"
+                onclick="window.open('https://github.com/Harishhari0525','_blank')"
                 />
             </div>
         </div>
@@ -68,24 +68,27 @@
         <h1 class="Title">About Me</h1>
         <br>
             <p>
-                IT professional with 4 years of experience in IT infrastructure management, Techical Support specializing in Oracle SQL and Unix based environments</p>
+                I specialize in Infrastructure Management providing customer centric technical support based on Oracle SQL & Unix based Environments.
+            </p>
         <div class="section-container">
             <div class="about-details-container">
                 <div class="about-containers">
                     <div class="details-container">
-                        <img src="assets/experience.png" alt="experience-icon" title="experience" class="icon"/>
+                        <img src="assets/experience.png" alt="experience-icon" title="experience" class="icon"
+                        />
                         <h3>Experience</h3>
-                        <p>4 years <br />IT Support Analyst</p>
+                        <p>4 years<br/>Production Support</p>
                     </div>
                     <div class="details-container">
                         <img src="assets/education.png" alt="education-icon" class="icon"/>
                         <h3>Education</h3>
-                        <p>Bachelor of Technology <br />Computer Science & Systems Engineering</p>
+                        <p>Computer Science | Bachelors Degree<br/></p>
                     </div>
                 </div>    
            </div>
         </div>
-        <img src="assets/arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='./#experience'"/>
+        <img src="assets/arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='./#experience'"
+        />
    </section>
    <section id="experience">
     <p class="section__text__p1">Explore My</p>
@@ -93,56 +96,180 @@
     <div class="experience-details-container">
       <div class="about-containers">
         <div class="details-container">
-          <h2 class="experience-sub-title">Senior Associate Consultant | Infosys Ltd.</h2>
-          <p>Hyderabad, Telangana, India</p>
-          <p>July 2023 – Present</p>
-          <p>Skill Set - Control-M monitoring, SQL, Unix, Shell scripting, Job Automation</p>
+          <h2 class="experience-sub-title">Technical Support</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>SQL</h3>
+                <p>Expert</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Unix/h3>
+                <p>Expert</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Shell Scripting</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Control-M</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
         </div>
         <div class="details-container">
-          <h2 class="experience-sub-title">Systems Engineer | Infosys Ltd.</h2>
-          <p>Hyderabad, Telangana, India</p>
-          <p>Oct 2020 – Jun 2023</p>
-          <p>Skill Set - Oracle L1 Admin, Unix, Shell scripting, Job Automation, ITIL management</p>
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Flutter</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Git</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
         </div>
-        <div class="details-container">
-          <h2 class="experience-sub-title">Systems Engineer Trainee - Internship at Infosys Ltd.</h2>
-          <p>Mysore, Karnataka, India</p>
-          <p>Dec 2019 - Mar 2020</p>
-          <ul>
-            <li>Developed a sample E-Commerce platform with CRUD functionalities for products using Java Spring Boot (backend) and Angular (frontend).</li>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+      <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Whatsapp Stickers App</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/Harishhari0525/Animated-Stickers/','_blank')"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">CloudStream Extensions</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/Harishhari0525/cs-self_repo/','_blank')"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Intrepreter</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/vamsi-yerramreddy/Intrepreter','_blank')"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/yerramreddy-vamsidhar-reddy-790b67124/"
+            target="_blank">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img
+              src="./assets/twitter.png"
+              alt="twitter icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://twitter.com/vamcyerramreddy/"
+              target="_blank">twitter</a></p>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
-      </div>
-    </div>
-   </section>
-   <section id="projects">
-    <p class="section__text__p1">My</p>
-    <h1 class="title">Hobby Projects</h1>
-    <div class="details-container">
-      <p>Need to add github projects</p>
-    </div>
-   </section>
-   <section id="certification">
-    <p class="section__text__p1">My</p>
-    <h1 class="title">Certifications</h1>
-      <div class="details-container">
-        <ul>
-          <li>Certified Unix Developer – Infosys Ltd.</li>
-          <li>Certified Python Developer – Infosys Ltd.</li>
-          <li>Certified Java Developer – Infosys Ltd.</li>
-        </ul>
-    </div>
-   </section>
-   <section id="contact">
-    <p class="section__text__p1">Get in Touch</p>
-    <h1 class="title">Contact</h1>
-    <div class="contact-details-container">
-      <div class="details-container">
-        <p>Email: harishhari0525@gmail.com</p>
-        <p>Phone: +91-8686307426</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/harish-ummadisetty/" target="_blank">Harish Ummadisetty</a></p>
-      </div>
-    </div>
-   </section>
-   </body>
+      </nav>
+      <p>Copyright &#169; 2024 Vamc Reddy. All Rights Reserved.</p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
 </html>
