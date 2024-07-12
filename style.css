@@ -11,8 +11,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* Light Mode (default) */
-
 html {
   scroll-behavior: smooth;
 }
@@ -332,7 +330,7 @@ section {
 
 .experience-details-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: column;
 }
 
@@ -354,8 +352,6 @@ article {
 
 article .icon {
   cursor: default;
-  width: 24px;
-    height: 24px;
 }
 
 /* PROJECTS SECTION */
